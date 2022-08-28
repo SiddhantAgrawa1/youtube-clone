@@ -1,0 +1,31 @@
+.Sidebar{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    width : 63px;
+    height: 50vh;
+    /* border-right: 2px solid gray; */
+    font-size: 12px;
+}
+
+.Sidebar ul{
+    list-style: none;
+    margin-left: -40px;
+}
+
+.Sidebar ul li{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 18px;
+    /* margin-left: -5px; */
+}
+
+#subs{
+    margin-right: -15px;
+    /* background-color: azure;
+    color: azure; */
+    /* filter: grayscale(90deg); */
+    /* filter: saturate(50%); */
+}

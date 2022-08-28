@@ -1,0 +1,95 @@
+.content{
+    /* border: 2px solid blue; */
+    width:93%;
+    position: absolute;
+    top:110px;
+    left: 90px;
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: rgb(24, 24, 24);
+}
+
+.infi-content{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.videos{
+    width: 293px !important;
+    height: 300px !important;
+    /* border: 2px solid black; */
+    margin:3px 4px 3px 4px;
+    padding: 5px;
+    
+}
+.video{
+    width:293px !important;
+    height: 200px !important;
+}
+
+.video:hover{
+    cursor: pointer;
+}
+
+
+.videos h3{
+    margin-top: 0px;
+    margin-bottom: -10px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.videos > p{
+    margin-bottom: -5px;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+#viewCount{
+    margin-bottom: 2px;
+    padding-left: 5px;
+}
+
+#title{
+    width: 290px;
+    height: 40px;
+}
+
+#profile-cont{
+    display: flex;
+    flex-direction: row;
+}
+
+#channel{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#profile img{
+    margin-right: 5px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #2e2d2d;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

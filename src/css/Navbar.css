@@ -1,0 +1,66 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+    height: 50px;
+    width: 97.3vw;
+    /* border: 2px solid yellow; */
+}
+
+.navbar #menu{
+    margin-left: 15px;
+    /* margin-top: 5px; */
+    margin-right: 10px;
+}
+
+#logoname{
+    font-weight: bolder;
+    font-size: 1.7rem;
+    margin-left: 5px;
+    margin-right: 10px;
+    /* margin-top: 5px; */
+}
+
+#logo{
+    margin-left: 5px;
+    /* margin-top: 3px; */
+}
+
+#search{
+    margin-left:auto;
+    width: 450px;
+    height: 30px;
+    background-color: rgb(2, 2, 2);
+    border: 2px solid rgb(51, 51, 51);
+    font-size: 1rem;
+    padding-left: 15px;
+    color: antiquewhite;
+}
+
+#search-icon{
+    width: 40px;
+    height: 32px;
+    background-color: #333333;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(51, 51, 51);
+    margin-left: 2px;
+    /* border: 2px solid wheat; */
+}
+#mike-icon{
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+#video-icon{
+    margin-left: auto;
+    margin-right: 15px;
+}
+#bell-icon{
+    margin-right: 15px;
+}
+#profile-icon{
+    margin-right: 5px;
+}
